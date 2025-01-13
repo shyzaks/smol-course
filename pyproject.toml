@@ -12,4 +12,10 @@ dependencies = [
     "transformers>=4.46.3",
     "trl>=0.12.1",
     "bitsandbytes>=0.45.0",
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
 ]
